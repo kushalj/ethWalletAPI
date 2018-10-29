@@ -148,53 +148,6 @@ export default ({ config, db }) => {
 			console.error(err);
 		}
 
-
-		
-
-
-
-		// web3.eth.getTransactionCount(sourceAddress)
-		// .then(function(txCount){
-		// 	console.log("Count: " + txCount);
-		// 	count = txCount;
-		// 	const txAmount = web3.utils.toHex(amount);
-
-		// 	//creating raw tranaction for Rinkeby (chainId=4)
-		// 	const rawTransaction = {
-		// 		"from": sourceAddress,
-		// 		"gasPrice": web3.utils.toHex(20* 1e9),
-		// 		"gasLimit": web3.utils.toHex(210000),
-		// 		"to":  destination,
-		// 		"value": txAmount,
-		// 		"nonce": web3.utils.toHex(count),
-		// 		"chainId":4
-		// 	}
-		// 	console.log(rawTransaction);
-
-		// 	//creating tranaction via ethereumjs-tx
-		// 	const transaction = new Tx(rawTransaction);
-
-		// 	//signing transaction with private key
-		// 	transaction.sign(sourcePrivateKey);
-
-		// 	//sending transacton via web3 module
-		// 	web3.eth.sendSignedTransaction(
-		// 		'0x'+transaction.serialize().toString('hex'))
-		// 		.on('transactionHash',console.log
-		// 	)
-		// 	.then(
-		// 		web3.eth.getBalance(destination)
-		// 		.then(function(balance){
-		// 			console.log(balance)
-		// 		})
-		// 	);
-
-		// })
-		// .catch( (err) => {
-		// 	console.log(err);
-		// });
-
-
 	}));
 
 	return api;

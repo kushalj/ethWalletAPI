@@ -42,9 +42,9 @@ body =
 
 ```JSON
 {
-    privateKey: <private key>,
-    desination: <destination address>,
-    amount: <amount to transfer>
+    "privateKey": "<private key>",
+    "desination": "<destination address>",
+    "amount": "<amount to transfer>"
 }
 ```
 

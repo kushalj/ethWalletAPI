@@ -72,17 +72,17 @@ returns transaction receipt and new destination balance:
     "destinationBalance": "<new destination balance>",
     "receipt": {
         "blockHash": "<block hash>",
-        "blockNumber": <block number>,
+        "blockNumber": "<block number>",
         "contractAddress": null,
-        "cumulativeGasUsed": <cumulative>,
+        "cumulativeGasUsed": "<cumulative>",
         "from": "<source address of ETH>",
-        "gasUsed": <gas cost>,
+        "gasUsed": "<gas cost>",
         "logs": [],
         "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
         "status": <true/false>,
         "to": "<destination address>",
         "transactionHash": "<tx hash>",
-        "transactionIndex": <tx index>
+        "transactionIndex": "<tx index>"
     }
 }
 ```
